@@ -1,7 +1,7 @@
-import startApp from './app';
-import { initEngine } from './render/init';
+import React from 'react'
+import { createRoot } from 'react-dom/client'
+import App from './App'
 
-(async () => {
-    await initEngine()
-    startApp()
-})()
+const container = document.getElementById('root')
+const root = createRoot(container)
+root.render(<App />)

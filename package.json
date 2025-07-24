@@ -1,7 +1,7 @@
 {
   "name": "three-boilerplate",
   "version": "3.0.1",
-  "description": "Three.js Vite boilerplate with shaders and GSAP.",
+  "description": "Three.js React Three Fiber boilerplate with shaders and GSAP.",
   "main": "index.js",
   "author": "Arya",
   "license": "MIT",
@@ -15,12 +15,15 @@
   "keywords": [
     "three",
     "three.js",
+    "react",
+    "react-three-fiber",
     "vite",
     "shaders",
     "webgl",
     "three.js boilerplate"
   ],
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -32,7 +35,11 @@
     "url": "git@github.com:visionary-studio/three-boilerplate"
   },
   "dependencies": {
+    "@react-three/drei": "^10.6.0",
+    "@react-three/fiber": "^9.2.0",
     "gsap": "^3.11.4",
-    "three": "^0.148.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.159.0"
   }
 }
